@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: rafaelgd/petclinic
+  repository: rafaelgd/projectcicd
   tag: latest
   pullPolicy: IfNotPresent
 
