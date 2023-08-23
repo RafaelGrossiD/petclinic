@@ -17,7 +17,7 @@ pipeline {
 			{
 			  "title" : "PetClinic",
 			  "eventType": "CUSTOM_DEPLOYMENT",
-			  "entitySelector": "type(process_group_instance),tag(Jenkins)",
+			  "entitySelector": "type(process_group_instance),tag(PetClinic)",
 			  "properties": {
 			    "Jenkins.JOB_NAME": "${env.JOB_NAME}",
 			    "Jenkins.BUILD_NUMBER": "${env.BUILD_NUMBER}",
