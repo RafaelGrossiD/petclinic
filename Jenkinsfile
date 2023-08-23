@@ -23,7 +23,7 @@ pipeline {
 			    "Jenkins.BUILD_NUMBER": "${env.BUILD_NUMBER}",
 			    "dt.event.deployment.project": "Project CICD",
 			    "dt.event.deployment.remediation_action_link": "https://urlexample",
-			    "dt.event.deployment.version": "1.1",
+			    "dt.event.deployment.version": "1.2",
 			    "dt.event.deployment.release_stage": "PRD", 
 			    "dt.event.deployment.release_product": "Frontend",
 			    "approver": "Rafael",
