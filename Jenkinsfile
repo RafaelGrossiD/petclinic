@@ -35,7 +35,8 @@ pipeline {
 			"""
 			
 			def dyna_request = httpRequest contentType: 'APPLICATION_JSON', customHeaders: [[maskValue: false, name: 'Authorization', value: "${env.DT_API_TOKEN}"]], httpMode: 'POST', requestBody: dyna_json, responseHandle: 'STRING', url: "${env.DT_TENANT_URL}", validResponseCodes: "100:404"	
-	   }           
+			}	
+		}           
         }
     }
 }
