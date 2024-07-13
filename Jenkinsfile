@@ -11,7 +11,7 @@ pipeline {
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
-                        sh '/usr/local/bin/helm --upgrade install petclinic-app petclinic  --set image.repository=registry.hub.docker.com/rafaelgd/projectcicd --set image.tag=16'
+                        sh '/usr/local/bin/helm upgrade --install petclinic-app petclinic  --set image.repository=registry.hub.docker.com/rafaelgd/projectcicd --set image.tag=6'
               		script {	
 			def dyna_json = """
 			{
